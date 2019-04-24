@@ -1,61 +1,88 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "https://iskovpin.ru"
+title = "iskovpin"
+
 theme = "hugo-coder"
+
 languagecode = "en"
 defaultcontentlanguage = "en"
 
 paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "b2"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "John Doe"
-    info = "Full Stack DevOps and Magician"
-    description = "John Doe's personal website"
+    author = "Ivan Skovpin"
+    description = "Ivan Skovpin's personal website"
     keywords = "blog,developer,personal"
+    info = "PHP developer"
     avatarurl = "images/avatar.jpg"
+    footercontent = "May the force be with you"
 
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
+    dateformat = "January 2, 2006"
 
-    footercontent = "Enter a text here."
-
-    hidecredits = false
-    hidecopyright = false
+    hideCredits = true
+    hideCopyright = true
 
     rtl = false
 
-    math = true
-    custom_css = ["css/custom.css"]
+    # Use inverted colors
+    inverted = false
 
-# Social links
+    # Series see also post count
+    maxSeeAlsoItems = 5
+
+    # Custom CSS
+    custom_css = []
+
+[taxonomies]
+  series = "series"
+
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin"
+    weight = 1
+    url = "https://www.linkedin.com/in/iskovpin/?locale=en_US"
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
+    icon = "fab fa-github"
     weight = 2
-    url = "https://gitlab.com/johndoe/"
+    url = "https://github.com/iskovpin/"
 [[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
+    name = "Mail"
+    icon = "fa fa-envelope"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "mailto:mailbox@iskovpin.ru"
 
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
+
+[languages]
+    [languages.en]
+        languagename = "EN"
+
+        [[languages.en.menu.main]]
+        name = "About"
+        weight = 1
+        url = "/about/"
+
+    [languages.ru]
+        languagename = "RU"
+        title = "iskovpin"
+
+        [languages.ru.params]
+            author = "Иван Сковпин"
+            info = "PHP разработчик"
+            description = "Иван Сковпин. Персональный веб-сайт"
+            keywords = "php,разрабочик"
+            footercontent = "Да прибудет с тобой сила"
+
+        [languages.ru.menu]
+
+            [[languages.ru.menu.main]]
+            name = "Обо мне"
+            weight = 1
+            url = "/ru/about/"
