@@ -78,10 +78,8 @@ disqusShortname = "yourdiscussshortname"
             info = "PHP разработчик"
             description = "Иван Сковпин. Персональный веб-сайт"
             keywords = "php,разрабочик"
-            footercontent = "Да прибудет с тобой сила"
 
         [languages.ru.menu]
-
             [[languages.ru.menu.main]]
             name = "Обо мне"
             weight = 1

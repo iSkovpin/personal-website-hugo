@@ -1,29 +1,48 @@
 +++
-title = "About Hugo"
+title = "About"
 slug = "about"
 +++
 
-Hugo is a static site engine written in Go.
+Hello! I'm Ivan, professional backend web developer.
 
+I have about 5 years of experience in commercial software development.
 
-It makes use of a variety of open source projects including:
+My primary skills are:
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+* PHP
+* Yii2
+* MySQL
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+Also, I used
 
-## Setup
+* JavaScript 
+* Go 
+* PostgreSQL 
+* ElasticSearch 
+* Symfony 
+* Docker
+* and much more in bits
 
-Some fun facts about [Hugo](http://gohugo.io/):
+I have experience in
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+* developing a web application architecture from scratch
+* API development
+* highload optimization
+* creating and containerizing microservices
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+I worked in custom software development and in product software development too.
 
-Thanks for reading!
+* 2018-2019 Laboratory 365
+* 2017-2018 upwrok.com (freelance)
+* 2016-2017 Studio 15
+* 2015-2015 Artline Group
+* 2014-2015 OOO "AVVI"
+
+I like to write clean and supportable code, and feel no shame for its quality then :)
+
+At this moment I live in Russia, Tomsk (UTC+7).
+
+In my free time, I play the guitar and drink super strong puer tea.
+
+If you are looking for a responsible experienced backend developer for your complex interesting project,
+write me to [mailbox@iskovpin.ru](mailto:mailbox@iskovpin.ru).
