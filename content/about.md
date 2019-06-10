@@ -30,7 +30,7 @@ I have experience in
 * highload optimization
 * creating and containerizing microservices
 
-I worked in custom software development and in product software development too.
+I worked both in custom and product software development, including remotely:
 
 * 2018-2019 Laboratory 365
 * 2017-2018 upwrok.com (freelance)
@@ -45,4 +45,4 @@ At this moment I live in Russia, Tomsk (UTC+7).
 In my free time, I play the guitar and drink super strong puer tea.
 
 If you are looking for a responsible experienced backend developer for your complex interesting project,
-write me to [mailbox@iskovpin.ru](mailto:mailbox@iskovpin.ru).
+write me on [mailbox@iskovpin.ru](mailto:mailbox@iskovpin.ru).
