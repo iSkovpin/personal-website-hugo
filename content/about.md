@@ -27,7 +27,8 @@ I have experience in
 
 * developing a web application architecture from scratch
 * API development
-* highload optimization
+* 3rd party services integration
+* page loading speed optimization
 * creating and containerizing microservices
 
 I worked both in custom and product software development, including remotely:

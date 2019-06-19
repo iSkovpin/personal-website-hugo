@@ -83,4 +83,4 @@ disqusShortname = "yourdiscussshortname"
             [[languages.ru.menu.main]]
             name = "Обо мне"
             weight = 1
-            url = "/ru/about/"
+            url = "/ru/obo-mne/"
