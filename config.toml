@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://iskovpin.ru"
 title = "iskovpin"
 
 theme = "hugo-coder"
