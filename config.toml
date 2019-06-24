@@ -42,7 +42,11 @@ disqusShortname = "yourdiscussshortname"
 [taxonomies]
   series = "series"
 
-
+[[params.social]]
+    name = "hh.ru"
+    icon = "fa fa-address-card"
+    weight = 1
+    url = "https://spb.hh.ru/applicant/resumes/view?resume=f37d79e9ff02d1a8a00039ed1f537a626b5150"
 [[params.social]]
     name = "LinkedIn"
     icon = "fab fa-linkedin"
