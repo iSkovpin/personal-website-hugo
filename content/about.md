@@ -15,12 +15,12 @@ My primary skills are:
 
 Also, I used
 
-* JavaScript 
-* Go 
+* JavaScript
 * PostgreSQL 
+* Docker
 * ElasticSearch 
 * Symfony 
-* Docker
+* Go
 * and much more in bits
 
 I have experience in
@@ -30,9 +30,11 @@ I have experience in
 * 3rd party services integration
 * page loading speed optimization
 * creating and containerizing microservices
+* setting up an application's deploy to Kubernetes cluster
 
 I worked both in custom and product software development, including remotely:
 
+* 2019-2019 Telebreeze
 * 2018-2019 Laboratory 365
 * 2017-2018 upwrok.com (freelance)
 * 2016-2017 Studio 15
