@@ -2,7 +2,7 @@
 date = "2020-11-18"
 title = "Локальная разработка Google Apps Script в IntelliJ IDEA (PHPStorm)"
 slug = "lokalnaya-razrabotka-google-apps-script" 
-tags = ["Google Apps Script", "IDEA"]
+tags = ["Google Apps Script", "IDEA", "PHPStorm"]
 categories = ["development", "JavaScript"]
 +++
 

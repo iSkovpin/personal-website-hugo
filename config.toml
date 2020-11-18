@@ -89,3 +89,8 @@ disqusShortname = "yourdiscussshortname"
             weight = 1
             url = "/ru/obo-mne/"
 
+            [[languages.ru.menu.main]]
+            name = "Блог"
+            weight = 1
+            url = "/ru/posts/"
+
