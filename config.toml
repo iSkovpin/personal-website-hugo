@@ -28,16 +28,32 @@ disqusShortname = "yourdiscussshortname"
     hideCredits = true
     hideCopyright = true
 
-    rtl = false
+   rtl = false
 
-    # Use inverted colors
-    inverted = false
+   # Specify light/dark colorscheme
+   # Supported values:
+   # "auto" (use preference set by browser)
+   # "dark" (dark background, light foreground)
+   # "light" (light background, dark foreground) (default)
+   colorScheme = "auto"
 
-    # Series see also post count
-    maxSeeAlsoItems = 5
+   # Hide the toggle button, along with the associated vertical divider
+   hideColorSchemeToggle = false
 
-    # Custom CSS
-    custom_css = []
+   # Series see also post count
+   maxSeeAlsoItems = 5
+
+   # Enable Twemoji
+   enableTwemoji = true
+
+   # Custom CSS
+   customCSS = []
+
+   # Custom SCSS
+   customSCSS = []
+
+   # Custom JS
+   customJS = []
 
 [taxonomies]
   series = "series"
@@ -49,12 +65,12 @@ disqusShortname = "yourdiscussshortname"
     url = "https://spb.hh.ru/applicant/resumes/view?resume=f37d79e9ff02d1a8a00039ed1f537a626b5150"
 [[params.social]]
     name = "LinkedIn"
-    icon = "fab fa-linkedin"
+    icon = "fa fa-linkedin"
     weight = 1
     url = "https://www.linkedin.com/in/iskovpin/?locale=en_US"
 [[params.social]]
     name = "Github"
-    icon = "fab fa-github"
+    icon = "fa fa-github"
     weight = 2
     url = "https://github.com/iskovpin/"
 [[params.social]]
