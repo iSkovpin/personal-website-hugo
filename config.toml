@@ -62,7 +62,7 @@ disqusShortname = "yourdiscussshortname"
     name = "hh.ru"
     icon = "fa fa-address-card"
     weight = 1
-    url = "https://spb.hh.ru/applicant/resumes/view?resume=f37d79e9ff02d1a8a00039ed1f537a626b5150"
+    url = "/ru/resume?utm=homepage"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin"
@@ -72,7 +72,7 @@ disqusShortname = "yourdiscussshortname"
     name = "Github"
     icon = "fa fa-github"
     weight = 2
-    url = "https://github.com/iskovpin/"
+    url = "https://github.com/iskovpin"
 [[params.social]]
     name = "Mail"
     icon = "fa fa-envelope"
@@ -98,6 +98,27 @@ disqusShortname = "yourdiscussshortname"
             info = "PHP разработчик"
             description = "Иван Сковпин. Персональный веб-сайт"
             keywords = "php,разрабочик"
+
+            [[languages.ru.params.social]]
+                name = "Resume"
+                icon = "fa fa-address-card"
+                weight = 1
+                url = "/ru/resume?utm=homepage"
+            [[languages.ru.params.social]]
+                name = "LinkedIn"
+                icon = "fa fa-linkedin"
+                weight = 1
+                url = "https://www.linkedin.com/in/iskovpin"
+            [[languages.ru.params.social]]
+                name = "Github"
+                icon = "fa fa-github"
+                weight = 2
+                url = "https://github.com/iskovpin"
+            [[languages.ru.params.social]]
+                name = "Mail"
+                icon = "fa fa-envelope"
+                weight = 3
+                url = "mailto:mailbox@iskovpin.ru"
 
         [languages.ru.menu]
             [[languages.ru.menu.main]]
