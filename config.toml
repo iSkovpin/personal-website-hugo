@@ -3,23 +3,24 @@ title = "iskovpin"
 
 theme = "hugo-coder"
 
-languagecode = "en"
+locale = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
 canonifyurls = true
 
-pygmentsstyle = "b2"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
+[pagination]
+    pagerSize = 20
 
-disqusShortname = "yourdiscussshortname"
+[markup.highlight]
+    style = "b2"
+    codeFences = true
+    guessSyntax = true
 
 [params]
     author = "Ivan Skovpin"
-    description = "Ivan Skovpin's personal website"
-    keywords = "blog,developer,personal"
-    info = "PHP developer"
+    description = "Ivan Skovpin's personal website. Senior Golang Developer: high-load services, PostgreSQL, and media processing."
+    keywords = "Go,Golang,backend,PostgreSQL,developer,personal"
+    info = "Senior Golang Developer"
     avatarurl = "images/avatar.jpg"
     footercontent = "May the force be with you"
 
@@ -59,7 +60,7 @@ disqusShortname = "yourdiscussshortname"
   series = "series"
 
 [[params.social]]
-    name = "hh.ru"
+    name = "Resume"
     icon = "fa fa-address-card"
     weight = 1
     url = "/ru/resume?utm=homepage"
@@ -82,7 +83,8 @@ disqusShortname = "yourdiscussshortname"
 
 [languages]
     [languages.en]
-        languagename = "EN"
+        label = "EN"
+        locale = "en"
 
         [[languages.en.menu.main]]
         name = "About"
@@ -90,14 +92,15 @@ disqusShortname = "yourdiscussshortname"
         url = "/about/"
 
     [languages.ru]
-        languagename = "RU"
+        label = "RU"
+        locale = "ru"
         title = "iskovpin"
 
         [languages.ru.params]
             author = "Иван Сковпин"
-            info = "PHP разработчик"
-            description = "Иван Сковпин. Персональный веб-сайт"
-            keywords = "php,разрабочик"
+            info = "Senior Golang Developer"
+            description = "Иван Сковпин. Senior Golang Developer: высоконагруженные сервисы, PostgreSQL и обработка медиаконтента."
+            keywords = "Go,Golang,бэкенд,PostgreSQL,разработчик"
 
             [[languages.ru.params.social]]
                 name = "Resume"

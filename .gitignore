@@ -1,4 +1,10 @@
 # IntelliJ project files
 .idea
 
+# Hugo generated files
+/public/
 /resources/
+/.hugo_build.lock
+
+# macOS metadata
+.DS_Store
