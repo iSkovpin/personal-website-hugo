@@ -1,0 +1,7 @@
+[build]
+    command = "hugo version && npm exec --yes --package=sass-embedded@1.108.2 -- make build HUGO_ARGS=--panicOnWarning"
+    publish = "public"
+
+[build.environment]
+    HUGO_VERSION = "0.170.1"
+    NODE_VERSION = "24.18.0"

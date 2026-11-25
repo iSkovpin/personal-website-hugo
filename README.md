@@ -43,3 +43,12 @@ Use `make serve PORT=1314` to change the port, or pass extra Hugo flags with
 
 The templates in `layouts/_default/` and `layouts/partials/` override the pinned
 hugo-coder theme to support current Hugo APIs.
+
+## Netlify
+
+The root `netlify.toml` pins Hugo and Node.js to the tested versions and publishes
+`public/`. Its build command uses `npm exec` to install Dart Sass 1.108.2 for the
+build, then runs `make build` with warnings treated as errors.
+
+These file-based settings override the corresponding settings in the Netlify UI.
+Commit and push `netlify.toml` to apply them to the next deploy.
