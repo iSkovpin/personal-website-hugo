@@ -60,23 +60,31 @@ canonifyurls = true
   series = "series"
 
 [[params.social]]
+    target = "_blank"
+    rel = "noopener noreferrer"
     name = "Resume"
-    icon = "fa fa-address-card"
+    icon = "fa-regular fa-address-card fa-2x"
     weight = 1
     url = "/ru/resume?utm=homepage"
 [[params.social]]
+    target = "_blank"
+    rel = "noopener noreferrer"
     name = "LinkedIn"
-    icon = "fa fa-linkedin"
+    icon = "fa-brands fa-linkedin fa-2x"
     weight = 1
     url = "https://www.linkedin.com/in/iskovpin/?locale=en_US"
 [[params.social]]
+    target = "_blank"
+    rel = "noopener noreferrer"
     name = "Github"
-    icon = "fa fa-github"
+    icon = "fa-brands fa-github fa-2x"
     weight = 2
     url = "https://github.com/iskovpin"
 [[params.social]]
+    target = "_blank"
+    rel = "noopener noreferrer"
     name = "Mail"
-    icon = "fa fa-envelope"
+    icon = "fa-solid fa-envelope fa-2x"
     weight = 3
     url = "mailto:mailbox@iskovpin.ru"
 
@@ -103,23 +111,31 @@ canonifyurls = true
             keywords = "Go,Golang,бэкенд,PostgreSQL,разработчик"
 
             [[languages.ru.params.social]]
+                target = "_blank"
+                rel = "noopener noreferrer"
                 name = "Resume"
-                icon = "fa fa-address-card"
+                icon = "fa-regular fa-address-card fa-2x"
                 weight = 1
                 url = "/ru/resume?utm=homepage"
             [[languages.ru.params.social]]
+                target = "_blank"
+                rel = "noopener noreferrer"
                 name = "LinkedIn"
-                icon = "fa fa-linkedin"
+                icon = "fa-brands fa-linkedin fa-2x"
                 weight = 1
                 url = "https://www.linkedin.com/in/iskovpin"
             [[languages.ru.params.social]]
+                target = "_blank"
+                rel = "noopener noreferrer"
                 name = "Github"
-                icon = "fa fa-github"
+                icon = "fa-brands fa-github fa-2x"
                 weight = 2
                 url = "https://github.com/iskovpin"
             [[languages.ru.params.social]]
+                target = "_blank"
+                rel = "noopener noreferrer"
                 name = "Mail"
-                icon = "fa fa-envelope"
+                icon = "fa-solid fa-envelope fa-2x"
                 weight = 3
                 url = "mailto:mailbox@iskovpin.ru"
 

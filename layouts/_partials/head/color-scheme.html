@@ -1,0 +1,3 @@
+{{ if or (eq .Site.Params.colorScheme "auto") (eq .Site.Params.colorScheme "dark") }}
+  {{ partial "head/style.html" (dict "source" "scss/coder-dark.scss" "target" "css/coder-dark.css" "context" .) }}
+{{ end }}

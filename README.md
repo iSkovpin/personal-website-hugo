@@ -41,8 +41,18 @@ Run `make` to list the available commands:
 Use `make serve PORT=1314` to change the port, or pass extra Hugo flags with
 `HUGO_ARGS`, for example `make drafts HUGO_ARGS="--buildFuture"`.
 
-The templates in `layouts/_default/` and `layouts/partials/` override the pinned
-hugo-coder theme to support current Hugo APIs.
+## Theme
+
+The `themes/hugo-coder` submodule tracks the official
+[hugo-coder upstream](https://github.com/luizdepra/hugo-coder), pinned to commit
+`c83ad8687346d751302612fae89a3a415a0e1e9b` (2026-11-14).
+
+The small overrides in `layouts/_partials/` use the current language label API
+and compile the theme's Sass with Dart Sass. Only legacy Sass deprecations from
+the theme and its bundled Font Awesome are silenced; build warnings from other
+sources still fail CI. Social links open in a new tab through the theme's
+`target` and `rel` configuration options.
+The footer override preserves the custom tagline from `params.footercontent`.
 
 ## Netlify
 

@@ -1,0 +1,8 @@
+<link rel="preload" href="{{ "fonts/fa-brands-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/fa-regular-400.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ "fonts/fa-solid-900.woff2" | relURL }}" as="font" type="font/woff2" crossorigin>
+
+{{ partial "head/style.html" (dict "source" "scss/coder.scss" "target" "css/coder.css" "context" .) }}
+{{ if .Site.Params.rtl }}
+  {{ partial "head/style.html" (dict "source" "scss/coder-rtl.scss" "target" "css/coder-rtl.css" "context" .) }}
+{{ end }}

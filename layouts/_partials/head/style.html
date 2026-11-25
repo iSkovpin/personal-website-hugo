@@ -1,0 +1,12 @@
+{{/* Keep upstream's legacy Sass deprecations scoped to theme styles. */}}
+{{- $options := dict
+  "targetPath" .target
+  "enableSourceMap" hugo.IsServer
+  "transpiler" "dartsass"
+  "silenceDeprecations" (slice "import" "global-builtin" "if-function")
+-}}
+{{- $styles := resources.Get .source | resources.ExecuteAsTemplate (printf "style.%s" (path.Base .target)) .context | css.Sass $options -}}
+{{- if not hugo.IsServer -}}
+  {{- $styles = $styles | resources.Minify | resources.Fingerprint -}}
+{{- end -}}
+<link rel="stylesheet" href="{{ $styles.RelPermalink }}"{{ if not hugo.IsServer }} integrity="{{ $styles.Data.Integrity }}" crossorigin="anonymous"{{ end }} media="screen">
